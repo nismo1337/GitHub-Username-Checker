@@ -13,7 +13,7 @@ if __name__ == "__main__":
    
     if sys.platform == "win32":
         import os
-        os.system("title GitHub Username Checker | github.com/nismo1337")
+        os.system("title github.com/nismo1337/GitHub-Username-Checker")
     
     with open('usernames.txt') as f:
         usernames = [line.rstrip() for line in f]
